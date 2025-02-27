@@ -34,7 +34,7 @@ export interface PreHandleResult {
   dom?: Document
 }
 
-export const FAKE_URL_PREFIX =  `${process.env.BASE_URL}/no_url?=q` //https://omnivore.app/no_url?q='
+export const FAKE_URL_PREFIX =  `${process.env.BASE_URL}/no_url?q=` //https://omnivore.app/no_url?q='
 export const generateUniqueUrl = () => FAKE_URL_PREFIX + uuid()
 
 export abstract class ContentHandler {
