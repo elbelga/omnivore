@@ -77,7 +77,7 @@ const DOM_PURIFY_CONFIG = {
 }
 const ARTICLE_PREFIX = 'omnivore:'
 
-export const FAKE_URL_PREFIX =  `${process.env.BASE_URL}/no_url?=q` // 'https://omnivore.app/no_url?q='
+export const FAKE_URL_PREFIX =  `${process.env.BASE_URL}/no_url?q=` // 'https://omnivore.app/no_url?q='
 export const rssParserConfig = () => {
   const fingerprint = generateFingerprint()
 
